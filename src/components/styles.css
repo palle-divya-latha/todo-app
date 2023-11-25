@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .list-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .edit-delete-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* .filter-button {
+    margin-top: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+  }
+  styles.css */
+
+.filter-buttons {
+  margin: 5%;
+  /* margin-right: -80%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  @media (max-width: 1000px) {
+    .filter-buttons{
+      margin-right: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  
+  /* Responsive styles */
+  
+  @media (max-width: 576px) {
+    .col-md-6 {
+      margin-top: 20px;
+    }
+  }
+  
